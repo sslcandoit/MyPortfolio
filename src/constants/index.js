@@ -27,12 +27,20 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "introduction",
+    title: "Introduction",
   },
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "CPA",
+    title: "CPA",
+  },
+  {
+    id: "Art",
+    title: "Art",
   },
   {
     id: "contact",
@@ -141,7 +149,7 @@ const experiences = [
   {
     title: "Founder",
     company_name: "JungleKidCoders",
-    icon: starbucks,
+    icon: meta,
     iconBg: "#383E56",
     date: "June 2023 - Present",
     points: [

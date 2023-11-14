@@ -39,19 +39,16 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Overview</p>
+        <h2 className={styles.sectionHeadText}>Introduction.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a recent graduate from Pace University with a Master's degree in Computer Science. I am currently seeking full-time opportunities as a Software Development Engineer. Proficient in languages like Java, Python, JavaScript, C, and C++, I bring a versatile skill set to both front-end and back-end development. My expertise extends to frameworks such as React, Node.js, Three.js, Spring, and Spring Boot, allowing me to work seamlessly in full-stack development. Additionally, I have hands-on experience with cloud platforms like AWS and Azure, and I excel in visualizing data using PowerBI. Eager to contribute my knowledge and skills to innovative projects, I'm excited about the prospect of joining a dynamic team in the tech industry.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
