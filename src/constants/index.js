@@ -19,6 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
+  pace,
+  meltek,
+  jungle,
+  jungle1,
   carrent,
   jobit,
   tripguide,
@@ -126,8 +130,8 @@ const experiences = [
   {
     title: "Graduate Research Assistant",
     company_name: "Pace University, Lubin School of Business",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: pace,
+    iconBg: "#FFFFFF",
     date: "Jan 2020 - Jul 2021",
     points: [
       "Integrated & processed data to draw conclusions about default risks, annual returns, & dividends of NY banks using Excel, accelerating 2.5hr task to 15 minutes by developing self-learning VBA code to calculate complex formulas in batches.",
@@ -137,8 +141,8 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "Meltek Inc.",
-    icon: meta,
-    iconBg: "#383E56",
+    icon: meltek,
+    iconBg: "#FFFFFF",
     date: "Feb 2023 - Jun 2023",
     points: [
       "Develops and troubleshoot enhancements on business process automation on Microsoft Azure to streamline workflows.",
@@ -149,8 +153,8 @@ const experiences = [
   {
     title: "Founder",
     company_name: "JungleKidCoders",
-    icon: meta,
-    iconBg: "#383E56",
+    icon: jungle1,
+    iconBg: "#FFFFFF",
     date: "June 2023 - Present",
     points: [
       "Founded and established JungleKidCoders, a technology company focused on empowering young minds with coding and digital skills, fostering a new generation of tech-savvy innovators and problem solvers.",

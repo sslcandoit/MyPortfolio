@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import pace from "./company/pace.png";
+import meltek from "./company/meltek.png";
+import jungle from"./company/jungle.png";
+import jungle1 from"./company/jungle1.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,6 +57,10 @@ export {
   typescript,
   threejs,
   meta,
+  pace,
+  meltek,
+  jungle,
+  jungle1,
   shopify,
   starbucks,
   tesla,
