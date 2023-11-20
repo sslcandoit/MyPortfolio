@@ -24,6 +24,8 @@ import {
   jungle,
   jungle1,
   carrent,
+  revolutionart,
+  revolutionArtIcon,
   jobit,
   tripguide,
   threejs,
@@ -191,9 +193,10 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Revolution Art",
+    role: "Lead Developer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows selllers to upload & sell their artworks, and allows buyers to search, buy, like artworks, providing a convenient and efficient solution for artwork-selling needs.",
     tags: [
       {
         name: "react",
@@ -208,8 +211,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: revolutionart,
+    source_code_link: "https://github.com/zdisanto/RevolutionArt.git",
+    image_website: revolutionArtIcon,
+    source_code_link_website: "https://revolution-art.netlify.app/",
   },
   {
     name: "Job IT",

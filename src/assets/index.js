@@ -31,6 +31,8 @@ import jungle from"./company/jungle.png";
 import jungle1 from"./company/jungle1.jpeg";
 
 import carrent from "./carrent.png";
+import revolutionart from "./revolutionart.png";
+import revolutionArtIcon from "./revolutionArtIcon.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -65,6 +67,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  revolutionart,
+  revolutionArtIcon,
   jobit,
   tripguide,
 };
