@@ -33,8 +33,9 @@ import jungle1 from"./company/jungle1.jpeg";
 import carrent from "./carrent.png";
 import revolutionart from "./revolutionart.png";
 import revolutionArtIcon from "./revolutionArtIcon.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tiktik from "./tiktik.png";
+import reggie from "./reggie.png";
+import www from "./www.png";
 
 export {
   logo,
@@ -69,6 +70,7 @@ export {
   carrent,
   revolutionart,
   revolutionArtIcon,
-  jobit,
-  tripguide,
+  tiktik,
+  reggie,
+  www,
 };

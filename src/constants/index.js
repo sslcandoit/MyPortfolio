@@ -15,20 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   pace,
   meltek,
-  jungle,
   jungle1,
-  carrent,
   revolutionart,
   revolutionArtIcon,
-  jobit,
-  tripguide,
+  tiktik,
   threejs,
+  reggie,
 } from "../assets";
 
 export const navLinks = [
@@ -213,41 +207,51 @@ const projects = [
     ],
     image: revolutionart,
     source_code_link: "https://github.com/zdisanto/RevolutionArt.git",
-    image_website: revolutionArtIcon,
     source_code_link_website: "https://revolution-art.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "ReggieTakeOut",
+    role: "Independent Developer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The project specially customized for restaurants, including management system for employees and mobile application for customers. [Backend]",
     tags: [
       {
-        name: "react",
+        name: "spring",
+        color: "",
+      },
+      {
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "springmvc",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: reggie,
+    source_code_link: "https://github.com/sslcandoit/ReggieTakeOut",
+    source_code_link_website: "https://github.com/sslcandoit/",
   },
   {
-    name: "Trip Guide",
+    name: "TikTok Clone",
+    role: "Independent Developer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a full stack TikTok clone project with Google OAuth 2.0 Login allowing users to login, upload, publish, share, comment, like, filter and search videos using React, Next.js, TypeScript and Sanity.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typeScript",
         color: "green-text-gradient",
       },
       {
@@ -255,8 +259,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tiktik,
+    source_code_link: "https://github.com/sslcandoit/tiktok_clone_project",
+    source_code_link_website: "https://tiktok-clone-project.vercel.app/",
   },
 ];
 
